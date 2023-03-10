@@ -1,0 +1,128 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+#container {
+    /* padding: 50px; */
+    /* border-radius: 10px; */
+    border: 2px solid white;
+    background-color: #f4f4f4;
+    position: relative;
+    width: 550px;
+    height: 730px;
+    margin: 150px;    
+}
+
+#top-half {
+    background-color: #6943FF;
+    height: 285px;
+    width: 100%;
+    /* border-radius: 10px 10px  0px 0px; */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #6943FF;
+    /* display: flex; */
+}
+
+/* #bottom- */
+
+#top-half h1 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding-top: 33px;
+    font-size: 23px;
+}
+
+#number-input {
+    /* padding: 50px; */
+    border-radius: 5px;
+    color: white;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    min-width: 117px;
+    height: 83px;
+    font-size: 58px;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    padding: 0px 2px 0px 2px;
+    /* overflow: scroll; */
+}
+
+
+#convert-btn {
+    width: 119px;
+    height: 42px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin: auto;
+    display: block;
+    margin-top: 27px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #3D3D3D;
+}
+
+#length-el {
+    width: 90%;
+    /* padding: ; */
+    height: 108px;
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: 34px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#volume-el {
+    width: 90%;
+    height: 108px;
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+    background-color: white;
+    margin-top: 23px;
+    border-radius: 5px;
+}
+
+#mass-el {
+    width: 90%;
+    height: 108px;
+    /* border: 1px solid red; */
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-top: 23px;
+    border-radius: 5px;
+}
+
+#bottom-half h2 {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding-top: 30px;
+    color: #5A537B;
+}
+
+#bottom-half p {
+    text-align: center;
+    font-size: 13px;
+    color: #353535;
+    /* margin-top: 9px; */
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    max-width: 450px;
+}

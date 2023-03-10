@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ife's Unit Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="top-half">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <div id = "err-message"></div>
+            <input max="6" type="number" id="number-input" name="number" onfocus="clearTarget()" placeholder="00">
+            <button id = "convert-btn">Convert</button>
+        </div>
+
+        <div id="bottom-half">
+            <div id = "length-el">
+                <h2>Length (Meter/Feet)</h2>
+                <!-- <p>meters = 0.000 feet | feet = 0.000 meters</p> -->
+            </div>
+
+            <div id = "volume-el">
+                <h2>Volume (Liters/Gallons)</h2>
+            </div>
+
+            <div id = "mass-el">
+                <h2>Mass (Kilograms/Pounds)</h2>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
